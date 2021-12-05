@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EFA20F7-3704-49CE-8716-4ABE89B3653A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp2</RootNamespace>
+    <AssemblyName>WindowsFormsApp2</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Dimitris\Desktop\Εκπαιδευτικό Λογισμικό - p15171\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>44680A9D64E5940C25282D7DFE332F31CC20B79E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WindowsFormsApp2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="decisionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="decisionForm.Designer.cs">
+      <DependentUpon>decisionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="exam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="exam.Designer.cs">
+      <DependentUpon>exam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="genikoTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="genikoTest.Designer.cs">
+      <DependentUpon>genikoTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="help.Designer.cs">
+      <DependentUpon>help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lesson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lesson.Designer.cs">
+      <DependentUpon>lesson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="propaideia10test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="propaideia10test.Designer.cs">
+      <DependentUpon>propaideia10test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="propaideia1test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="propaideia1test.Designer.cs">
+      <DependentUpon>propaideia1test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="propaideia2test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="propaideia2test.Designer.cs">
+      <DependentUpon>propaideia2test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="propaideia3test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="propaideia3test.Designer.cs">
+      <DependentUpon>propaideia3test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="propaideia4test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="propaideia4test.Designer.cs">
+      <DependentUpon>propaideia4test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="propaideia5test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="propaideia5test.Designer.cs">
+      <DependentUpon>propaideia5test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="propaideia6test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="propaideia6test.Designer.cs">
+      <DependentUpon>propaideia6test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="propaideia7test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="propaideia7test.Designer.cs">
+      <DependentUpon>propaideia7test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="propaideia8test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="propaideia8test.Designer.cs">
+      <DependentUpon>propaideia8test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="propaideia9test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="propaideia9test.Designer.cs">
+      <DependentUpon>propaideia9test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="statistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="statistics.Designer.cs">
+      <DependentUpon>statistics.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="decisionForm.resx">
+      <DependentUpon>decisionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="exam.resx">
+      <DependentUpon>exam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="genikoTest.resx">
+      <DependentUpon>genikoTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="help.resx">
+      <DependentUpon>help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lesson.resx">
+      <DependentUpon>lesson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="propaideia10test.resx">
+      <DependentUpon>propaideia10test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="propaideia1test.resx">
+      <DependentUpon>propaideia1test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="propaideia2test.resx">
+      <DependentUpon>propaideia2test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="propaideia3test.resx">
+      <DependentUpon>propaideia3test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="propaideia4test.resx">
+      <DependentUpon>propaideia4test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="propaideia5test.resx">
+      <DependentUpon>propaideia5test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="propaideia6test.resx">
+      <DependentUpon>propaideia6test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="propaideia7test.resx">
+      <DependentUpon>propaideia7test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="propaideia8test.resx">
+      <DependentUpon>propaideia8test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="propaideia9test.resx">
+      <DependentUpon>propaideia9test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="statistics.resx">
+      <DependentUpon>statistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="WindowsFormsApp2_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multTable.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
